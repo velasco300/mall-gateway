@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mall-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8818
+      discovery:
+        server-addr: 127.0.0.1:8818
+logging:
+  path: logs
+  file: app.log
+
+
+
